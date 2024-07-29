@@ -1,0 +1,48 @@
+footer{
+    background-color: black;
+    height:250px;
+   color:white;
+} 
+footer i{
+    color: yellow;
+}
+.footerh2{
+    color:yellow;
+   
+}
+.footer-section{
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.footer-one{
+   
+    width:400px;
+    margin-top:20px;
+  
+}
+
+.footer-one p{
+    padding-top:30px;
+}
+
+.footer-two{
+    
+    margin-top:20px;
+}
+
+.footer-two i{
+    padding:8px;
+    margin-left:10px;
+}
+
+
+
+.footer-three{
+ margin-top:20px;
+}
+.footer-three i{
+    padding-top: 20px;
+    margin-left:10px;
+}
