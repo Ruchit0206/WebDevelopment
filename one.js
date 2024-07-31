@@ -31,3 +31,25 @@ selectors.forEach(selector => {
 
     });
 });
+
+
+
+
+function filterActivities() {
+    var select = document.getElementById("activity-type");
+    var filter = select.value;
+    var activities = document.getElementsByClassName("activity");
+
+    for (var i = 0; i < activities.length; i++) {
+      if (filter === "all") {
+        activities[i].style.display = "block";
+      } else {
+        var type = activities[i].getAttribute("data-type");
+        if (type === filter) {
+          activities[i].style.display = "block";
+        } else {
+          activities[i].style.display = "none";
+        }
+      }
+    }
+  }

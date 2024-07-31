@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Activity - Life on Land</title>
+  <link rel="stylesheet" href="video.css">
+</head>
+<body>
+  <nav>
+    <div>
+        <div class="anchor-tag-div">
+            <div>
+                <a href="index.html"> <img src="life.png" class="logo"></a>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="education.html" >Education</a>
+            <a href="Interactive.html">Interactive</a>
+            <a href="Supports.html">Supports</a>
+            <a href="resources.html">Resources</a>
+            <div>
+                <span id="watch" style="border-bottom:5px solid rgb(255, 3, 3)"><a href="video.html">&nbsp;Watch Activity</a></span>
+            </div>
+        </div><!--anchor tag div end-->
+    </div>
+</nav>
+  <main>
+    <h2>Watch Activity</h2>
+    <p>Explore various activities promoting sustainable living and environmental conservation.</p>
+
+    <div class="filter-container">
+      <label for="activity-type">Filter by type:</label>
+      <select id="activity-type" onchange="filterActivities()">
+        <option value="all">All</option>
+        <option value="ngo">NGOs</option>
+        <option value="seminar">Cleaning Seminars</option>
+        <option value="workshop">Workshops</option>
+      </select>
+    </div>
+
+    <div id="activity-list">
+      <div class="activity" data-type="ngo">
+        <h3>Environmental NGO Meetup</h3>
+        <p>Date: August 15, 2024</p>
+        <p>Description: Join us for a meetup with local environmental NGOs to discuss ongoing projects and collaborations.</p>
+      </div>
+      <div class="activity" data-type="seminar">
+        <h3>Community Cleaning Seminar</h3>
+        <p>Date: September 5, 2024</p>
+        <p>Description: Learn about the best practices for organizing community clean-ups and waste management.</p>
+      </div>
+      <div class="activity" data-type="workshop">
+        <h3>Urban Gardening Workshop</h3>
+        <p>Date: October 12, 2024</p>
+        <p>Description: Discover the basics of urban gardening and how to start your own sustainable garden at home.</p>
+      </div>
+      <!-- Additional activities can be added here -->
+    </div>
+  </main>
+
+  <script src="one.js">
+    
+  </script>
+</body>
+</html>
